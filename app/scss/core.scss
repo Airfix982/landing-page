@@ -1,10 +1,349 @@
-.gray-text-22
+.Manrope_
 {
-    font-size: 2.2rem;
-    font-family: 'Manrope';
+    font-family: Manrope;
+}
+.Normal_
+{
+    font-style: normal;
+}
+._700
+{
+    font-weight: 700;
+}
+._600
+{
+    font-weight: 600; 
+}
+._400
+{
+    font-weight: 400;
+}
+._300
+{
+    font-weight: 300;
+}
+.dark-blue_
+{
+    color: #0F0E42;
+}
+.light-blue_
+{
+    color: #1146A6;
+}
+.white_
+{
+ color: white;
+}
+
+.head_
+{
+    background-color: white;
+}
+.logo_
+{
+    margin: 1.2rem 0 -0.3rem 3.2rem;
+}
+.blog_
+{
+    font-size: 1.0rem;
+    line-height: 2.2rem;
+    text-align: right;
+    color: #08327F;
+    margin-bottom: -2.2rem;
+    margin-top: -2.9rem;
+    margin-right: 4.5rem;
+    padding-top: -3.0rem;
+    padding-bottom: 2.6rem; 
+}
+
+.blue_block
+{
+    background: linear-gradient(to bottom right, #07317E, #1146A6);
+    padding-bottom: 3.5rem;
+}
+._100k
+{
+    letter-spacing: -0.035rem;
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 7.0rem;
+margin-top: -0.25rem;
+padding-left: 1.8rem;
+}
+.za10min
+{
+font-size: 1.75rem;
+line-height: 5.5rem;
+margin-top: -6.0rem;
+padding-left: 1.8rem;
+}
+.white-block
+{
+    border-radius: 0.3rem;
+    background-color: #F2F6FD;
+    margin-right: 10rem;
+    margin-left: 9.9rem;
+}
+.container1 {
+    position: relative;
+    width: 1124px;
+    margin-top: 1.65rem;
+  }
+  .summ
+  {
+    font-size: 1.38rem;
+    line-height: 3.1rem;
+    padding: 1.5rem 0 0 1.1rem;
+  }
+  .count
+  {
+    top: -50%;
+    position: relative;
+    text-align: right;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    color: #2C2C2C;
+    margin: 1.1rem 1.0rem 1.0rem auto;
+  }
+.summ_border
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 8.98rem;
+    height: 2.97rem;
+    background-color: white;
+    border: 0.1rem solid #CED6ED;
+    border-radius: 0.15rem;
+    margin: 2.25rem 5.65rem auto auto;
+}
+.slider
+{
+    cursor: pointer;
+    width: 95.6%;
+    margin: 0.62rem auto 0.42rem 1.5rem ;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #1146A6;
+    border-radius: 0.18rem;
+    height: 0.5rem;
+    cursor: pointer;
+}
+.text_18gray
+{
+    font-size: 1.15rem;
+    line-height: 3.5rem;
+    color: #8C8E9B;
+    margin: -1.4rem auto auto 0.9rem;
+}
+._500k
+{
+    text-align: right;
+    margin: -1.4rem 5.7rem auto auto ;
+}
+.blue_text
+{
+    font-size: 1.15rem;
+    line-height: 3.5rem;;
+    margin-top: -1.55rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-bottom: -1.0rem;
+}
+.phone
+{
+    margin-left: 0rem;
+    margin-left: 0.45rem;
+}
+.FIO
+{
+    margin-right: 0;
+    margin-left: 0.9rem;
+}
+.pole_vvoda
+{
+    font-size: 1.05rem;
+    box-sizing: border-box;
+    width: 21.2rem;
+    height: 3.5rem;
+    background-color: white;
+    border: 0.1rem solid #CED6ED;
+    border-radius: 0.3rem;
+    margin: 0.2rem auto auto 0.9rem;
+    padding-left: 0.9rem;
+    font-family: Manrope;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%;
+    font-size: 1.15rem;
+    line-height: 3.5rem;
+    color: #0F0E42;
+    letter-spacing: 90%;
+}
+.vvod_telephone
+{
+    margin-left: 0.4rem;
+}
+.main-button
+{
+    background-color: #FCC01A;
+    margin-top: 1.05rem;
+    margin-left: 0.0rem;
+    font-size: 1.1rem;
+    width: 21.2rem;
+    height: 3.5rem;
+    border-radius: 0.3rem;
+    box-shadow: none;
+    display: inline-block;
+    transform: none;
+    border: none;
+}
+.main-button:hover
+{
+    background-color: #FFD359;
+}
+.lock
+{
+    margin: 0.45em auto auto 1.6rem;
+}
+.under-main-button
+{
+    margin-top: -1.22rem;
+    margin-left: 4.5rem;
+    font-size: 0.75rem;
+}
+.inviz
+{
+    padding-bottom: 1.45rem;
+}
+@media only screen and (max-width: 767px) 
+{
+.inviz
+{
+    display: none;
+}
+}
+.galka
+{
+    margin-top: -1.0rem;
+    margin-left: 0.9rem;
+}
+.galka-text
+{
+    font-family: Manrope;
+    font-weight: 500;
+    color: #0F0E42;
+    margin-top: -2.0rem;
+    margin-left: 3.9rem;
+    font-size: 1.1rem;
+}
+.galka-precents
+{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    color: #1146A6;
+    margin-top: -2rem;
+    margin-left: 17.8rem;
+    font-size: 1.5rem;
+}
+.precent
+{
+    margin-top: -1.0rem;
+    margin-left: 0.5rem;
+}
+.precent-text
+{
+    font-family: Manrope;
+    font-weight: 500;
+    color: #0F0E42;
+    margin-top: -2.0rem;
+    margin-left: 3.45rem;
+    font-size: 1.1rem;
+}
+.precent-precents
+{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    color: #1146A6;
+    margin-top: -2rem;
+    margin-left: 11.25rem;
+    font-size: 1.5rem;
+}
+.second-block
+{
+ background-color: #FCFDFF;
+}
+.graytxt-2nd-block
+{
     color: #8C8E9B;
-    background-color: black;
+    margin-top: 6.4rem;
+    margin-left: -3rem;
+    font-size: 1.38rem;
+}
+.send-you-money
+{
+    font-size: 2.5rem;
+    margin-top: 0.3rem;
+    margin-left: -3rem;
+}
+.card
+{
+    margin-top: 3.3rem;
+    margin-left: -3.6rem;
+}
+.on-card
+{
+    font-size: 1.4rem;
+    margin-top: -7rem;
+    margin-left: 5.2rem;
+    letter-spacing: 0.05rem;
+}
+.on-card-below
+{
+    font-size: 1.13rem;
+    margin-left: 5.1rem;
+    margin-top: 0.55rem;
+}
+.phone-with-cash
+{
+margin-top: 3.3rem;
+margin-left: 0.45rem;
+}
+.on-online-storage
+{
+    font-size: 1.4rem;
+    margin-top: -7rem;
+    margin-left: 9.25rem;
+    letter-spacing: 0.05rem;
+}
+.on-online-storage-below
+{
+    font-size: 1.13rem;
+    margin-left: 9.2rem;
+    margin-top: 0.6rem;
+}
+.hand-with-cash
+{
+    margin-top: 3.3rem;
+    margin-left: -0.2rem;
+}
+.on-hand
+{
+    font-size: 1.4rem;
+    margin-top: -7rem;
+    margin-left: 8.6rem;
+    letter-spacing: 0.06rem;
+}
+.on-hand-below
+{
+    font-size: 1.13rem;
+    margin-left: 8.5rem;
+    margin-top: 0.6rem;
+}
+.on-hand-below2
+{
+    margin-left: 17.25rem;
+    margin-top: -3.1rem;
+    font-size: 1.13rem;
 }

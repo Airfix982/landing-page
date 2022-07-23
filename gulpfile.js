@@ -43,11 +43,11 @@ function watch()
 {
     browserSync.init({
         server: {
-            baseDir: "./"
+            baseDir: "./app/"
         }
     });
     gulp.watch(paths.styles.src, style);
-    gulp.watch('./*.html', reload);
+    gulp.watch('./app/*.html', reload);
 }
 
 gulp.watch('./app/scss/*.sass', style);//old
