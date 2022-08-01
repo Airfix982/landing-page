@@ -1,54 +1,273 @@
-.Manrope_
+.Manrope
 {
     font-family: Manrope;
+    .black
+    {
+        color: #2C2C2C;
+        .font-size-1-5
+        {
+            font-size: 1.5rem;
+        }
+    }
+    .light-blue
+    {
+        color: #1146A6;
+        .font-size-1-5
+        {
+            font-size: 1.5rem;
+        }
+        .font-size-1-0
+        {
+            font-size: 1rem;
+        }
+        .font-size-0-85
+        {
+            font-size: 0.85rem;
+        }
+    }
+    .dark-blue
+    {
+        color: #0F0E42;
+        .font-size-1-38
+        {
+            font-size: 1.38rem;
+        }
+        .font-size-1-15
+        {
+            font-size: 1.15rem;
+        }
+        .font-size-1-1
+        {
+            font-size: 1.1rem;
+        }
+        .font-size-0-75
+        {
+            font-size: 0.75rem;
+        }
+        .font-size-2-5
+        {
+            font-size: 2.5rem;
+        }
+        .font-size-1-13
+        {
+            font-size: 1.13rem;
+        } 
+        .font-size-1-4
+        {
+            font-size: 1.4rem;
+        }
+        .font-size-1-005
+        {
+            font-size: 1.005rem;
+        }
+        .font-size-0-99
+        {
+            font-size: 0.99rem;
+        }
+        .font-size-1-0
+        {
+            font-size: 1rem;
+        }
+    }
+    .gray
+    {
+        color: #8C8E9B;
+        .font-size-1-15
+        {
+            font-size: 1.15rem;
+        }
+        .font-size-1-05
+        {
+            font-size: 1.05rem;
+        }
+        .font-size-1-38
+        {
+            font-size: 1.38rem;
+        }
+        .font-size-1-0
+        {
+            font-size: 1rem;
+        }
+    }
+    .white
+    {
+        color: white;
+        .font-size-1-5
+        {
+            font-size: 1.5rem;
+        }
+        .font-size-1-75
+        {
+            font-size: 1.75rem;
+        }
+        .font-size-0-89
+        {
+            font-size: 0.89rem;
+        }
+        .font-size-1-0
+        {
+            font-size: 1rem;
+        }
+    }
+    .medium-blue
+    {
+        color: #08327F;
+        .font-size-1-0
+        {
+            font-size: 1rem;
+        }
+        .font-size-1-38
+        {
+            font-size: 1.38rem;
+        }
+    }
+    .blue-07317E
+    {
+        color: #07317E;
+        .font-size-2-5
+        {
+            font-size: 2.5rem;
+        }
+    }
+    ._700
+    {
+        font-weight: 700;
+    }
+    ._600
+    {
+        font-weight: 600; 
+    }
+    ._500
+    {
+        font-weight: 500;
+    }
+    ._400
+    {
+        font-weight: 400;
+    }
+    ._300
+    {
+        font-weight: 300;
+    }
+        .text-align-right
+    {
+        text-align: right;
+    }
+    .text-align-center
+    {
+        text-align: center;
+    }
 }
-.Normal_
+.line-height-2-2
 {
-    font-style: normal;
+    line-height: 2.2rem;
 }
-._700
+.line-height-7-0
 {
-    font-weight: 700;
+    line-height: 7.0rem;
 }
-._600
+.line-height-5-5
 {
-    font-weight: 600; 
+    line-height: 5.5rem;
 }
-._400
+.line-height-3-1
 {
-    font-weight: 400;
+    line-height: 3.1rem;
 }
-._300
+.line-height-3-5
 {
-    font-weight: 300;
+    line-height: 3.5rem;
 }
-.dark-blue_
+.line-height-1-55
 {
-    color: #0F0E42;
+    line-height: 1.55rem;
 }
-.light-blue_
+.line-height-1-7
 {
-    color: #1146A6;
+    line-height: 1.7rem;
 }
-.white_
+.line-height-1-61
 {
- color: white;
+    line-height: 1.61rem;
 }
-
-.head_
+.line-height-1-64
+{
+    line-height: 1.64rem;
+}
+.letter-spacing-0-005
+{
+    letter-spacing: 0.005rem;
+}
+.letter-spacing-0-05
+{
+    letter-spacing: 0.05rem;
+}
+.letter-spacing-90precents
+{
+    letter-spacing: 90%;
+}
+.letter-spacing-minus-0-035
+{
+    letter-spacing: -0.035rem;
+}
+.background-white
 {
     background-color: white;
 }
-.logo_
+.background-0f0e42
+{
+    background-color: #0F0E42;
+}
+.background-fcfdff
+{
+    background-color: #FCFDFF;
+}
+.background-f2f6fd
+{
+    background-color: #F2F6FD;
+}
+.background-1146a6
+{
+    background-color: #1146A6;
+}
+.background-fcc01a
+{
+    background-color: #FCC01A;
+}
+.background-fcc01a:hover
+{
+    background-color: #FFD359;
+}
+.background-gradient-07317e-1146a6
+{
+    background: linear-gradient(to bottom right, #07317E, #1146A6);
+}
+.border-radius-0-3
+{
+    border-radius: 0.3rem;
+}
+.border-radius-0-15
+{
+    border-radius: 0.15rem;
+}
+.border-radius-0-18
+{
+    border-radius: 0.18rem;
+}
+.border-none
+{
+    border: none;
+}
+.border-0-1-solid-ced6ed
+{
+    border: 0.1rem solid #CED6ED;
+}
+.logo_head
 {
     margin: 1.2rem 0 -0.3rem 3.2rem;
 }
-.blog_
+.blog_head
 {
-    font-size: 1.0rem;
-    line-height: 2.2rem;
-    text-align: right;
-    color: #08327F;
     margin-bottom: -2.2rem;
     margin-top: -2.9rem;
     margin-right: 4.5rem;
@@ -58,62 +277,45 @@
 
 .blue_block
 {
-    background: linear-gradient(to bottom right, #07317E, #1146A6);
-    padding-bottom: 3.5rem;
+    padding-bottom: 3.55rem;
 }
-._100k
+.zaim_do_100k
 {
-    letter-spacing: -0.035rem;
-font-weight: 600;
-font-size: 1.5rem;
-line-height: 7.0rem;
-margin-top: -0.25rem;
+margin-top: -0.17rem;
 padding-left: 1.8rem;
 }
 .za10min
 {
-font-size: 1.75rem;
-line-height: 5.5rem;
-margin-top: -5.9rem;
+margin-top: -6rem;
 padding-left: 1.7rem;
 }
 .white-block
 {
-    border-radius: 0.3rem;
-    background-color: #F2F6FD;
     margin-right: 10rem;
     margin-left: 9.9rem;
 }
-.container1 {
+.container-gray-block-in-2nd-block
+{
     position: relative;
     width: 1124px;
     margin-top: 1.65rem;
   }
-  .summ
+  .needed-summ
   {
-    font-size: 1.38rem;
-    line-height: 3.1rem;
     padding: 1.5rem 0 0 1.1rem;
   }
   .count
   {
-    top: -50%;
+    top: -12%;
     position: relative;
-    text-align: right;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
-    color: #2C2C2C;
-    margin: 1.1rem 1.0rem 1.0rem auto;
+    margin: 0 1.0rem 0.5rem auto;
   }
-.summ_border
+.count_border
 {
     position: relative;
     box-sizing: border-box;
     width: 8.98rem;
     height: 2.97rem;
-    background-color: white;
-    border: 0.1rem solid #CED6ED;
-    border-radius: 0.15rem;
     margin: 2.25rem 5.65rem auto auto;
 }
 .slider
@@ -124,92 +326,59 @@ padding-left: 1.7rem;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-color: #1146A6;
-    border-radius: 0.18rem;
     height: 0.5rem;
     cursor: pointer;
 }
-.text_18gray
+.min-value
 {
-    font-size: 1.15rem;
-    line-height: 3.5rem;
-    color: #8C8E9B;
     margin: -1.4rem auto auto 0.9rem;
 }
-._500k
+.max-value
 {
-    text-align: right;
-    margin: -1.4rem 5.7rem auto auto ;
-}
-.blue_text
-{
-    font-size: 1.15rem;
-    line-height: 3.5rem;;
-    margin-top: -1.55rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    margin-bottom: -1.0rem;
+    margin: -1.35rem 5.52rem auto auto ;
 }
 .phone
 {
-    margin-left: 0rem;
-    margin-left: 0.45rem;
+    margin: -0.6rem 0 -1rem 0.45rem;
 }
 .FIO
 {
-    margin-right: 0;
-    margin-left: 0.9rem;
+    margin: -1.55rem 0 -1.0rem 0.9rem;
 }
-.pole_vvoda
+.name-input-space
 {
-    font-size: 1.05rem;
     box-sizing: border-box;
     width: 21.2rem;
     height: 3.5rem;
-    background-color: white;
-    border: 0.1rem solid #CED6ED;
-    border-radius: 0.3rem;
     margin: 0.2rem auto auto 0.9rem;
     padding-left: 0.9rem;
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.15rem;
-    line-height: 3.5rem;
-    color: #0F0E42;
-    letter-spacing: 90%;
 }
-.vvod_telephone
+.phone-number-input-space
 {
-    margin-left: 0.4rem;
+    box-sizing: border-box;
+    width: 21.2rem;
+    height: 3.5rem;
+    margin: 1.1rem auto auto 0.46rem;
+    padding-left: 0.9rem;
 }
 .main-button
 {
-    background-color: #FCC01A;
-    margin-top: 1.05rem;
+    margin-top: 1.15rem;
     margin-left: 0.0rem;
-    font-size: 1.1rem;
     width: 21.2rem;
     height: 3.5rem;
-    border-radius: 0.3rem;
     box-shadow: none;
     display: inline-block;
     transform: none;
-    border: none;
-}
-.main-button:hover
-{
-    background-color: #FFD359;
 }
 .lock
 {
     margin: 0.45em auto auto 1.6rem;
 }
-.under-main-button
+.lock-sentence
 {
     margin-top: -1.22rem;
     margin-left: 4.5rem;
-    font-size: 0.75rem;
 }
 .inviz
 {
@@ -222,196 +391,149 @@ padding-left: 1.7rem;
     display: none;
 }
 }
-.galka
+.check-mark
 {
-    margin-top: -1.0rem;
+    margin-top: -1.2rem;
     margin-left: 0.9rem;
 }
-.galka-text
+.check-mark-text
 {
-    font-family: Manrope;
-    font-weight: 500;
-    color: #0F0E42;
     margin-top: -2.0rem;
     margin-left: 3.9rem;
-    font-size: 1.1rem;
 }
-.galka-precents
+.check-mark-precents
 {
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: 700;
-    color: #1146A6;
     margin-top: -2rem;
     margin-left: 17.8rem;
-    font-size: 1.5rem;
 }
 .precent
 {
-    margin-top: -1.0rem;
+    margin-top: -1.2rem;
     margin-left: 0.5rem;
 }
 .precent-text
 {
-    font-family: Manrope;
-    font-weight: 500;
-    color: #0F0E42;
     margin-top: -2.0rem;
     margin-left: 3.45rem;
-    font-size: 1.1rem;
 }
 .precent-precents
 {
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: 700;
-    color: #1146A6;
     margin-top: -2rem;
     margin-left: 11.25rem;
-    font-size: 1.5rem;
 }
 .second-block
 {
- background-color: #FCFDFF;
- margin-bottom: 8.6rem;
+ margin-bottom: 7.1rem;
 }
 .graytxt-2nd-block
 {
-    color: #8C8E9B;
     margin-top: 6.4rem;
-    margin-left: -3rem;
-    font-size: 1.38rem;
+    margin-left: -3.7rem;
 }
 .send-you-money
 {
-    font-size: 2.5rem;
-    margin-top: 0.3rem;
-    margin-left: -3rem;
+    margin-top: -0.95rem;
+    margin-left: -3.7rem;
 }
-.card
+.cards-picture
 {
-    margin-top: 3.3rem;
+    margin-top: 2rem;
     margin-left: -3.6rem;
 }
-.on-card
+.on-a-card
 {
-    font-size: 1.4rem;
     margin-top: -7rem;
     margin-left: 5.2rem;
-    letter-spacing: 0.05rem;
 }
-.on-card-below
+.any-bank
 {
-    font-size: 1.13rem;
     margin-left: 5.1rem;
     margin-top: 0.55rem;
 }
 .phone-with-cash
 {
-margin-top: 3.3rem;
+margin-top: 2rem;
 margin-left: 0.45rem;
 }
 .on-online-storage
 {
-    font-size: 1.4rem;
     margin-top: -7rem;
     margin-left: 9.25rem;
-    letter-spacing: 0.05rem;
 }
-.on-online-storage-below
+.banks-names
 {
-    font-size: 1.13rem;
     margin-left: 9.2rem;
     margin-top: 0.6rem;
 }
 .hand-with-cash
 {
-    margin-top: 3.3rem;
+    margin-top: 2rem;
     margin-left: -0.2rem;
 }
 .on-hand
 {
-    font-size: 1.4rem;
     margin-top: -7rem;
     margin-left: 8.6rem;
-    letter-spacing: 0.06rem;
 }
-.on-hand-below
+.in-offices-our-partners
 {
-    font-size: 1.13rem;
     margin-left: 8.5rem;
     margin-top: 0.6rem;
-}
-.on-hand-below2
-{
-    margin-left: 17.25rem;
-    margin-top: -3.1rem;
-    font-size: 1.13rem;
 }
 
 .threeth-block
 {
-    background-color: #F2F6FD;
     padding-bottom: 2.8rem;
 }
-.graytxt-3th-block-move
+.gray-text-3d-block
 {
     margin-top: 3.85rem;
     margin-left: -3.65rem;
 }
 .why-contact-us
 {
-    font-size: 2.5rem;
-    margin-top: -0.85rem;
+    margin-top: -1rem;
     margin-left: -3.65rem;
 }
-.use-the-most-modern-technologies
-{
-  font-size: 1.005rem;  
+.we-are-using-the-most-modern-technologies
+{  
   margin-top: 1.05rem;
   margin-left: -3.65rem;
-  line-height: 1.55rem;
 }
-.neinteenein-precents
-{
-   color: #07317E;
-   font-size: 2.5rem; 
-   margin-top: -1.05rem;
+.block-3d-precents
+{ 
+   margin-top: -1.2rem;
    margin-left: 0.1rem;
 }
-.approbation
+.approbation-and-1st-zaim
 {
-color: #08327F;
-font-size: 1.38rem;
 margin-top: -0.2rem;
 margin-left: 0.1rem;
 }
+._1st-zaim
+{
+margin-top: -1.9rem;
+margin-left: 5.3rem;
+}
 .ten-min
 {
+    margin-top: -1.2rem;
     margin-left: 5.1rem;
 }
 .you-have-money
 {
+    margin-top: -0.2rem;
     margin-left: 5.1rem;
 }
-.first-zaim-move
+.button-3d-block
 {
-    margin-top: -1.9rem;
-    margin-left: 5.25rem;
-}
-.button-3-block
-{
-    background-color: #FCC01A;
     margin-top: 1.6rem;
     margin-left: -3.65rem;
-    font-size: 1.1rem;
     width: 21.2rem;
     height: 3.5rem;
-    border-radius: 0.3rem;
     box-shadow: none;
     display: inline-block;
     transform: none;
-    border: none;
 }
 .button-3-block:hover
 {
@@ -419,12 +541,10 @@ margin-left: 0.1rem;
 }
 .fourth-block
 {
-    background-color: #FCFDFF;
     padding-bottom: 6.15rem;
 }
 .get-money-ez
 {
-    font-size: 2.5rem;
     margin-top: 6.2rem;
     margin-left: -3.65rem;
 }
@@ -436,8 +556,8 @@ margin-left: 0.1rem;
 }
 .fill-form
 {
-    font-size: 1.50rem;
-    margin-left: -7.9rem;
+    margin-top: -1.85rem;
+    margin-left: -3.6rem;
 }
 .fill-form:hover
 {
@@ -446,10 +566,7 @@ margin-left: 0.1rem;
 .comfortable-interface
 {
     margin-top: 0.8rem;
-    color: #8C8E9B;
-    font-size: 1.0rem;
     margin-left: -3.6rem;
-    line-height: 1.7rem;
 }
 .chronometer-1
 {
@@ -458,7 +575,6 @@ margin-left: 0.1rem;
 }
 ._5min
 {
-    font-size: 0.85rem;
     margin-top: -1.35rem;
     margin-left: -2.1rem;
 }
@@ -469,18 +585,13 @@ margin-left: 0.45rem;
 }
 .wait-agreement
 {
-    font-size: 1.4rem;
     margin-top: 0.75rem;
     margin-left: 0.5rem;
-    letter-spacing: 0.06rem;
 }
 .no-more-5min
 {
     margin-top: 0.81rem;
-    color: #8C8E9B;
-    font-size: 1.0rem;
     margin-left: 0.48rem;
-    line-height: 1.7rem;
 }
 .chronometer-2
 {
@@ -489,7 +600,6 @@ margin-left: 0.45rem;
 }
 ._2min
 {
-    font-size: 0.85rem;
     margin-top: -1.36rem;
     margin-left: 2.0rem;
 }
@@ -500,18 +610,13 @@ margin-left: 0.45rem;
 }
 .get-money
 {
-    font-size: 1.4rem;
     margin-top: 0.75rem;
     margin-left: -0.1rem;
-    letter-spacing: 0.06rem;
 }
 .on-bank-card
 {
     margin-top: 0.81rem;
-    color: #8C8E9B;
-    font-size: 1.0rem;
     margin-left: -0.2rem;
-    line-height: 1.7rem;
 }
 .chronometer-3
 {
@@ -520,19 +625,17 @@ margin-left: 0.45rem;
 }
 ._1min
 {
-    font-size: 0.85rem;
     margin-top: -1.4rem;
     margin-left: 1.35rem;
 }
 .fifth-block
 {
-    background-color: white;
+    margin-bottom: 2.15rem;
 }
-.header-5-block-1
+.block-5-header-1
 {
     margin-top: 3.3rem;
     margin-left: -4.85rem;
-    font-size: 0.99rem;
 }
 li 
 {
@@ -544,48 +647,87 @@ li::before
 }
 .list-5
 {
-    font-size: 1.0rem;
     margin-left: -7.2rem;
-    margin-top: -0.7rem;
-    line-height: 1.61rem;
+    margin-top: -1.7rem;
 }
-.header-5-block-2
+.block-5-header-2
 {
-    margin-top: -0.25rem;
+    margin-top: 1.0rem;
     margin-left: -4.85rem;
-    font-size: 0.99rem;
-    letter-spacing: 0.005rem;
 }
 .block-5-text-2
 {
- margin-top: -0.66rem;
+ margin-top: -0.7rem;
  margin-left: -4.88rem;
  margin-right: -4.88rem;
- line-height: 1.61rem;
 }
-.header-5-block-3
+.block-5-header-3
 {
     margin-top: 0.8rem;
     margin-left: -4.85rem;
-    font-size: 0.99rem;
-    letter-spacing: 0.005rem;
 }
 .block-5-text-3
 {
  margin-top: -0.68rem;
  margin-left: -4.88rem;
  margin-right: -4.88rem;
- line-height: 1.61rem;
 }
 .block-5-agreement
 {
     margin-top: 0.85rem;
     margin-left: -4.85rem;
-    font-size: 1rem;
 }
 .block-5-refusing
 {
     margin-top: -0.5rem;
     margin-left: -4.85rem;
-    font-size: 1rem;
+}
+.logo-6th-block
+{
+    margin: 3.25rem auto auto -4.85rem;
+}
+.loan-selection-service
+{
+    margin-top: 0.47rem;
+    margin-left: -4.9rem;
+}
+.cooperation
+{
+    margin-top: 1.95rem;
+    margin-left: -4.9rem;
+}
+.white-line
+{
+    height: 0.05rem;
+    margin: 1.9rem -4.9rem 0;
+}
+.owner-of-Monebo
+{
+    margin-left: -4.9rem;
+    margin-right: -4.9rem;
+    margin-top: 1.35rem;
+}
+.OOO-GidFinance
+{
+    margin-left: -4.9rem;
+    margin-right: -4.9rem;
+    margin-top: 1.2rem;
+}
+.is-in-the-reester
+{
+    margin-left: -4.9rem;
+    margin-right: -4.9rem;
+    margin-top: 1.2rem;
+}
+.Important
+{
+    margin-left: -4.9rem;
+    margin-right: -4.9rem;
+    margin-top: 1.2rem;
+}
+.the-site-isnt-some-bank-or-else-somthing
+{
+    margin-left: -4.9rem;
+    margin-right: -4.9rem;
+    margin-top: 1.2rem;
 }
