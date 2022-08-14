@@ -1,0 +1,761 @@
+.Manrope
+{
+    font-family: Manrope;
+    .black
+    {
+        color: #2C2C2C;
+        .font-size-1-5
+        {
+            font-size: 1.5rem;
+        }
+    }
+    .light-blue
+    {
+        color: #1146A6;
+        .font-size-1-5
+        {
+            font-size: 1.5rem;
+        }
+        .font-size-1-0
+        {
+            font-size: 1rem;
+        }
+        .font-size-0-85
+        {
+            font-size: 0.85rem;
+        }
+    }
+    .dark-blue
+    {
+        color: #0F0E42;
+        .font-size-1-38
+        {
+            font-size: 1.38rem;
+        }
+        .font-size-1-15
+        {
+            font-size: 1.15rem;
+        }
+        .font-size-1-1
+        {
+            font-size: 1.1rem;
+        }
+        .font-size-0-75
+        {
+            font-size: 0.75rem;
+        }
+        .font-size-2-5
+        {
+            font-size: 2.5rem;
+        }
+        .font-size-1-13
+        {
+            font-size: 1.13rem;
+        } 
+        .font-size-1-4
+        {
+            font-size: 1.4rem;
+        }
+        .font-size-1-005
+        {
+            font-size: 1.005rem;
+        }
+        .font-size-0-99
+        {
+            font-size: 0.99rem;
+        }
+        .font-size-1-0
+        {
+            font-size: 1rem;
+        }
+    }
+    .gray
+    {
+        color: #8C8E9B;
+        .font-size-1-15
+        {
+            font-size: 1.15rem;
+        }
+        .font-size-1-05
+        {
+            font-size: 1.05rem;
+        }
+        .font-size-1-38
+        {
+            font-size: 1.38rem;
+        }
+        .font-size-1-0
+        {
+            font-size: 1rem;
+        }
+    }
+    .white
+    {
+        color: white;
+        .font-size-1-5
+        {
+            font-size: 1.5rem;
+        }
+        .font-size-1-75
+        {
+            font-size: 1.75rem;
+        }
+        .font-size-0-89
+        {
+            font-size: 0.89rem;
+        }
+        .font-size-1-0
+        {
+            font-size: 1rem;
+        }
+    }
+    .medium-blue
+    {
+        color: #08327F;
+        .font-size-1-0
+        {
+            font-size: 1rem;
+        }
+        .font-size-1-38
+        {
+            font-size: 1.38rem;
+        }
+    }
+    .blue-07317E
+    {
+        color: #07317E;
+        .font-size-2-5
+        {
+            font-size: 2.5rem;
+        }
+    }
+    ._700
+    {
+        font-weight: 700;
+    }
+    ._600
+    {
+        font-weight: 600; 
+    }
+    ._500
+    {
+        font-weight: 500;
+    }
+    ._400
+    {
+        font-weight: 400;
+    }
+    ._300
+    {
+        font-weight: 300;
+    }
+        .text-align-right
+    {
+        text-align: right;
+    }
+    .text-align-center
+    {
+        text-align: center;
+    }
+}
+.line-height-2-2
+{
+    line-height: 2.2rem;
+}
+.line-height-7-0
+{
+    line-height: 7.0rem;
+}
+.line-height-5-5
+{
+    line-height: 5.5rem;
+}
+.line-height-3-1
+{
+    line-height: 3.1rem;
+}
+.line-height-3-5
+{
+    line-height: 3.5rem;
+}
+.line-height-1-55
+{
+    line-height: 1.55rem;
+}
+.line-height-1-7
+{
+    line-height: 1.7rem;
+}
+.line-height-1-61
+{
+    line-height: 1.61rem;
+}
+.line-height-1-64
+{
+    line-height: 1.64rem;
+}
+.letter-spacing-0-005
+{
+    letter-spacing: 0.005rem;
+}
+.letter-spacing-0-05
+{
+    letter-spacing: 0.05rem;
+}
+.letter-spacing-90precents
+{
+    letter-spacing: 90%;
+}
+.letter-spacing-minus-0-035
+{
+    letter-spacing: -0.035rem;
+}
+.background-white
+{
+    background-color: white;
+}
+.background-0f0e42
+{
+    background-color: #0F0E42;
+}
+.background-fcfdff
+{
+    background-color: #FCFDFF;
+}
+.background-f2f6fd
+{
+    background-color: #F2F6FD;
+}
+.background-1146a6
+{
+    background-color: #1146A6;
+}
+.background-fcc01a
+{
+    background-color: #FCC01A;
+}
+.background-fcc01a:hover
+{
+    background-color: #FFD359;
+}
+.background-gradient-07317e-1146a6
+{
+    background: linear-gradient(to bottom right, #07317E, #1146A6);
+}
+.border-radius-0-3
+{
+    border-radius: 0.3rem;
+}
+.border-radius-0-15
+{
+    border-radius: 0.15rem;
+}
+.border-radius-0-18
+{
+    border-radius: 0.18rem;
+}
+.border-none
+{
+    border: none;
+}
+.border-0-1-solid-ced6ed
+{
+    border: 0.1rem solid #CED6ED;
+}
+.logo_head
+{
+    margin: 1.2rem 0 -0.3rem 3.2rem;
+}
+.blog_head
+{
+    margin-bottom: -2.2rem;
+    margin-top: -2.9rem;
+    margin-right: 4.5rem;
+    padding-top: -3.0rem;
+    padding-bottom: 2.6rem; 
+}
+
+.blue_block
+{
+    padding-bottom: 3.55rem;
+}
+.zaim_do_100k
+{
+margin-top: -0.17rem;
+padding-left: 1.8rem;
+}
+.za10min
+{
+margin-top: -6rem;
+padding-left: 1.7rem;
+}
+.white-block
+{
+    margin-top: 1.6rem;
+    width: 70.25rem;
+    margin-right: 10rem;
+    margin-left: 2.3rem;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px)
+{
+    .white-block
+    {
+        width: 45rem;
+    }
+}
+@media only screen and (min-width: 960px) and (max-width: 1199px)
+{
+    .white-block
+    {
+        width: 56.25rem;
+    }
+}
+@media only screen and (max-width: 767px)
+{
+    .white-block
+    {
+        width: 17.6rem;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+    .white-block
+    {
+        width: 24.6rem;
+    }
+}
+  .needed-summ
+  {
+    padding: 1.5rem 0 0 1.1rem;
+  }
+  .count
+  {
+    top: -12%;
+    position: relative;
+    margin: 0 1.0rem 0.5rem auto;
+  }
+.count_border
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 8.98rem;
+    height: 2.97rem;
+    margin: 2.25rem 5.65rem auto auto;
+}
+.slider
+{
+    cursor: pointer;
+    width: 91%;
+    margin: 0.62rem auto 0.42rem 1.0rem ;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 0.5rem;
+    cursor: pointer;
+}
+.min-value
+{
+    margin: -1.4rem auto auto 0.9rem;
+}
+.max-value
+{
+    margin: -1.35rem 5.52rem auto auto ;
+}
+.phone
+{
+    margin: -0.6rem 0 -1rem 0.45rem;
+}
+.FIO
+{
+    margin: -1.55rem 0 -1.0rem 0.9rem;
+}
+.name-input-space
+{
+    box-sizing: border-box;
+    width: 21.2rem;
+    height: 3.5rem;
+    margin: 0.2rem auto auto 0.9rem;
+    padding-left: 0.9rem;
+}
+.phone-number-input-space
+{
+    box-sizing: border-box;
+    width: 21.2rem;
+    height: 3.5rem;
+    margin: 1.1rem auto auto 0.46rem;
+    padding-left: 0.9rem;
+}
+.main-button
+{
+    margin-top: 1.15rem;
+    margin-left: 0.0rem;
+    width: 21.2rem;
+    height: 3.5rem;
+    box-shadow: none;
+    display: inline-block;
+    transform: none;
+}
+.lock
+{
+    margin: 0.45em auto auto 1.6rem;
+}
+.lock-sentence
+{
+    margin-top: -1.22rem;
+    margin-left: 4.5rem;
+}
+.inviz
+{
+    padding-bottom: 1.45rem;
+}
+@media only screen and (max-width: 767px) 
+{
+.inviz
+{
+    display: none;
+}
+}
+.check-mark
+{
+    margin-top: -1.2rem;
+    margin-left: 0.9rem;
+}
+.check-mark-text
+{
+    margin-top: -2.0rem;
+    margin-left: 3.9rem;
+}
+.check-mark-precents
+{
+    margin-top: -2rem;
+    margin-left: 17.8rem;
+}
+.precent
+{
+    margin-top: -1.2rem;
+    margin-left: 0.5rem;
+}
+.precent-text
+{
+    margin-top: -2.0rem;
+    margin-left: 3.45rem;
+}
+.precent-precents
+{
+    margin-top: -2rem;
+    margin-left: 11.25rem;
+}
+.second-block
+{
+ margin-bottom: 7.1rem;
+}
+.graytxt-2nd-block
+{
+    margin-top: 6.4rem;
+    margin-left: -3.7rem;
+}
+.send-you-money
+{
+    margin-top: -0.95rem;
+    margin-left: -3.7rem;
+}
+.cards-picture
+{
+    margin-top: 2rem;
+    margin-left: -3.6rem;
+}
+.on-a-card
+{
+    margin-top: -7rem;
+    margin-left: 5.2rem;
+}
+.any-bank
+{
+    margin-left: 5.1rem;
+    margin-top: 0.55rem;
+}
+.phone-with-cash
+{
+margin-top: 2rem;
+margin-left: 0.45rem;
+}
+.on-online-storage
+{
+    margin-top: -7rem;
+    margin-left: 9.25rem;
+}
+.banks-names
+{
+    margin-left: 9.2rem;
+    margin-top: 0.6rem;
+}
+.hand-with-cash
+{
+    margin-top: 2rem;
+    margin-left: -0.2rem;
+}
+.on-hand
+{
+    margin-top: -7rem;
+    margin-left: 8.6rem;
+}
+.in-offices-our-partners
+{
+    margin-left: 8.5rem;
+    margin-top: 0.6rem;
+}
+
+.threeth-block
+{
+    padding-bottom: 2.8rem;
+}
+.gray-text-3d-block
+{
+    margin-top: 3.85rem;
+    margin-left: -3.65rem;
+}
+.why-contact-us
+{
+    margin-top: -1rem;
+    margin-left: -3.65rem;
+}
+.we-are-using-the-most-modern-technologies
+{  
+  margin-top: 1.05rem;
+  margin-left: -3.65rem;
+}
+.block-3d-precents
+{ 
+   margin-top: -1.2rem;
+   margin-left: 0.1rem;
+}
+.approbation-and-1st-zaim
+{
+margin-top: -0.2rem;
+margin-left: 0.1rem;
+}
+._1st-zaim
+{
+margin-top: -1.9rem;
+margin-left: 5.3rem;
+}
+.ten-min
+{
+    margin-top: -1.2rem;
+    margin-left: 5.1rem;
+}
+.you-have-money
+{
+    margin-top: -0.2rem;
+    margin-left: 5.1rem;
+}
+.button-3d-block
+{
+    margin-top: 1.6rem;
+    margin-left: -3.65rem;
+    width: 21.2rem;
+    height: 3.5rem;
+    box-shadow: none;
+    display: inline-block;
+    transform: none;
+}
+.button-3-block:hover
+{
+    background-color: #FFD359;
+}
+.fourth-block
+{
+    padding-bottom: 6.15rem;
+}
+.get-money-ez
+{
+    margin-top: 6.2rem;
+    margin-left: -3.65rem;
+}
+.pencil
+{
+    margin-top: 2.05rem;
+    margin-left: -3.6rem;
+    margin-bottom: 2.5rem;
+}
+.fill-form
+{
+    margin-top: -1.85rem;
+    margin-left: -3.6rem;
+}
+.fill-form:hover
+{
+    opacity: 70%;
+}
+.comfortable-interface
+{
+    margin-top: 0.8rem;
+    margin-left: -3.6rem;
+}
+.chronometer-1
+{
+    margin-top: 0.9rem;
+    margin-left: -3.6rem;
+}
+._5min
+{
+    margin-top: -1.35rem;
+    margin-left: -2.1rem;
+}
+.clock
+{
+margin-top: 2.05rem;
+margin-left: 0.45rem;
+}
+.wait-agreement
+{
+    margin-top: 0.75rem;
+    margin-left: 0.5rem;
+}
+.no-more-5min
+{
+    margin-top: 0.81rem;
+    margin-left: 0.48rem;
+}
+.chronometer-2
+{
+    margin-top: 2.6rem;
+    margin-left: 0.5rem;
+}
+._2min
+{
+    margin-top: -1.36rem;
+    margin-left: 2.0rem;
+}
+.wallet
+{
+    margin-top: 2.05rem;
+    margin-left: -0.2rem;
+}
+.get-money
+{
+    margin-top: 0.75rem;
+    margin-left: -0.1rem;
+}
+.on-bank-card
+{
+    margin-top: 0.81rem;
+    margin-left: -0.2rem;
+}
+.chronometer-3
+{
+    margin-top: 0.9rem;
+    margin-left: -0.2rem;
+}
+._1min
+{
+    margin-top: -1.4rem;
+    margin-left: 1.35rem;
+}
+.fifth-block
+{
+    margin-bottom: 2.15rem;
+}
+.block-5-header-1
+{
+    margin-top: 3.3rem;
+    margin-left: -4.85rem;
+}
+li 
+{
+    list-style-type: none;
+}
+li::before
+{
+ content: '-';
+}
+.list-5
+{
+    margin-left: -7.2rem;
+    margin-top: -1.7rem;
+}
+.block-5-header-2
+{
+    margin-top: 1.0rem;
+    margin-left: -4.85rem;
+}
+.block-5-text-2
+{
+ margin-top: -0.7rem;
+ margin-left: -4.88rem;
+ margin-right: -4.88rem;
+}
+.block-5-header-3
+{
+    margin-top: 0.8rem;
+    margin-left: -4.85rem;
+}
+.block-5-text-3
+{
+ margin-top: -0.68rem;
+ margin-left: -4.88rem;
+ margin-right: -4.88rem;
+}
+.block-5-agreement
+{
+    margin-top: 0.85rem;
+    margin-left: -4.85rem;
+}
+.block-5-refusing
+{
+    margin-top: -0.5rem;
+    margin-left: -4.85rem;
+}
+.sixth-block
+{
+    padding-bottom: 3rem;
+}
+.logo-6th-block
+{
+    margin: 3.25rem auto auto -4.85rem;
+}
+.loan-selection-service
+{
+    margin-top: 0.47rem;
+    margin-left: -4.9rem;
+}
+.cooperation
+{
+    margin-top: 1.95rem;
+    margin-left: -4.9rem;
+}
+.white-line
+{
+    height: 0.05rem;
+    margin: 1.9rem -4.9rem 0;
+}
+.owner-of-Monebo
+{
+    margin-left: -4.9rem;
+    margin-right: -4.9rem;
+    margin-top: 1.35rem;
+}
+.OOO-GidFinance
+{
+    margin-left: -4.9rem;
+    margin-right: -4.9rem;
+    margin-top: 1.2rem;
+}
+.is-in-the-reester
+{
+    margin-left: -4.9rem;
+    margin-right: -4.9rem;
+    margin-top: 1.2rem;
+}
+.Important
+{
+    margin-left: -4.9rem;
+    margin-right: -4.9rem;
+    margin-top: 1.2rem;
+}
+.the-site-isnt-some-bank-or-else-somthing
+{
+    margin-left: -4.9rem;
+    margin-right: -4.9rem;
+    margin-top: 1.2rem;
+}
