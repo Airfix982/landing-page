@@ -27,7 +27,7 @@
 .first_block
 {
     background: linear-gradient(to bottom right, #07317E, #1146A6);
-    padding-bottom: 2.5rem;
+    padding-bottom: 1.3rem;
     .bold
     {
         font-weight: bold;
@@ -187,7 +187,7 @@
         .second_agreement
         {
             margin-top: -0.7rem;
-            margin-bottom: 1.8rem;
+            margin-bottom: 3rem;
         }
     }
 }
@@ -211,8 +211,147 @@
 {
     margin: 1.125rem auto 0 -0.5rem;
 }
+.button_3d_block
+{
+    margin: 2.8rem auto 0 auto;
+    width: 21.56rem;
+    display: block;/*это в медиа убери,чтоб кнопка не центровалась*/
+}
 
 .inviz
 {
     padding-bottom: 1.45rem;
+}
+
+.second_and_fourth_blocks
+{
+    background-color: #FCFDFF;
+    padding-bottom: 3.45rem;
+}
+.third_block
+{
+    background-color: #F2F6FD;
+}
+.fifth_block
+{
+    background-color: white;
+}
+.second_block_picture_cards
+{
+    margin-top: 0.9rem;
+    margin-left: -1.4rem;
+}
+.second_block_picture_phone_and_wallet
+{
+    margin-top: 1.85rem;
+    margin-left: -1.4rem;
+}
+.second_block_picture_hand_and_money
+{
+    margin-top: 3.1rem;
+    margin-left: -1.4rem;
+}
+
+.text_second_third_fourth_blocks
+{
+    .bold
+    {
+        font-weight: bold;
+    }
+    .normal
+    {
+        font-weight: normal;
+    }
+    .light
+    {
+        font-weight: 300;
+    }
+    .semi_bold
+    {
+        font-weight: 500;
+    }
+    .extra_bold
+    {
+        font-weight: 700;
+    }
+    .gray_header
+    {
+        color: #8C8E9B;
+        font-size: 1.125rem;
+        .gray_header_2nd_block
+        {
+            margin: 4rem auto 0 -1.5rem;
+        }
+        .gray_header_3d_block
+        {
+            margin: 2.8rem auto 0 -1.4rem;
+        }
+    }
+    .blue_title
+    {
+        color: #0F0E42;
+        font-size: 1.75rem;
+        .blue_title_2nd_block
+        {
+            margin: -0.8rem auto 0 -1.4rem;
+        }
+        .blue_title_3d_block
+        {
+            margin: -0.7rem auto 0 -1.4rem;
+            line-height: 2.13rem;
+        }
+    }
+    .blue_subtitle
+    {
+        color: #0F0E42;
+        font-size: 1.25rem;
+        letter-spacing: 0.05rem;
+        margin: -5.2rem auto 0 4.3rem;
+    }
+    .blue_text
+    {
+        color: #0F0E42;
+        font-size: 1rem;
+        .blue_text_2nd_block
+        {
+            margin: 0.5rem auto 0 4.3rem;
+        }
+        .blue_text_3d_block
+        {
+            margin: 1.6rem auto 0 -1.4rem;
+            white-space: nowrap;
+            line-height: 1.4rem;
+        }
+    }
+    .light_blue
+    {
+        color: #08327F;
+        .light_blue_22px
+        {
+            font-size: 1.38rem;
+            margin: -0.35rem auto 0 -1.4rem;
+        }
+        .light_blue_14px
+        {
+            font-size: 0.85rem;
+        }
+    }
+    .big_blue
+    {
+        color: #07317E;
+        font-size: 2.5rem;
+        margin-left: -1.4rem;
+        .precents_99
+        {
+            margin-top: 2.6rem;
+        }
+        .ten_minuts
+        {
+            margin-top: -0.1rem;
+        }
+        .precents_0
+        {
+            margin-top: 1.2rem;
+        }
+    }
 }
