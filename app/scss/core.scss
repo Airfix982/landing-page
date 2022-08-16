@@ -216,6 +216,7 @@
     margin: 2.8rem auto 0 auto;
     width: 21.56rem;
     display: block;/*это в медиа убери,чтоб кнопка не центровалась*/
+    margin-bottom: 2.8rem;
 }
 
 .inviz
@@ -235,6 +236,8 @@
 .fifth_block
 {
     background-color: white;
+    margin-top: 4rem;
+    padding-top: 2rem;
 }
 .second_block_picture_cards
 {
@@ -274,7 +277,7 @@
     {
         font-weight: 700;
     }
-    .gray_header
+    .gray_text
     {
         color: #8C8E9B;
         font-size: 1.125rem;
@@ -285,6 +288,24 @@
         .gray_header_3d_block
         {
             margin: 2.8rem auto 0 -1.4rem;
+        }
+        .gray_description_4th_block_first
+        {
+            font-size: 1rem;
+            margin: 0.8rem auto 0 4.2rem;
+            line-height: 1.5rem;
+        }
+        .gray_description_4th_block_second
+        {
+            font-size: 1rem;
+            margin: 0.7rem auto 0 4.2rem;
+            line-height: 1.6rem;
+        }
+        .gray_description_4th_block_third
+        {
+            font-size: 1rem;
+            margin: 0.7rem auto 0 4.2rem;
+            line-height: 1.6rem;
         }
     }
     .blue_title
@@ -300,6 +321,11 @@
             margin: -0.7rem auto 0 -1.4rem;
             line-height: 2.13rem;
         }
+        .blue_title_4th_block
+        {
+            margin: 3.6rem auto 0 -1.4rem;           
+            line-height: 2.16rem;
+        }
     }
     .blue_subtitle
     {
@@ -307,6 +333,21 @@
         font-size: 1.25rem;
         letter-spacing: 0.05rem;
         margin: -5.2rem auto 0 4.3rem;
+        .fill_form
+        {
+            letter-spacing: 0;
+            color: #07317E;
+        }
+        .wait_agreement
+        {
+            margin: -5.2rem auto 0 0.0rem;
+            letter-spacing: 0;
+        }
+        .get_money
+        {
+            margin: -5.2rem auto 0 0.0rem;
+            letter-spacing: 0;
+        }
     }
     .blue_text
     {
@@ -354,4 +395,123 @@
             margin-top: 1.2rem;
         }
     }
+    .very_light_blue
+    {
+        color: #1146A6;
+        font-size: 0.875rem;
+        .five_min
+        {
+            margin: -1.45rem auto 0 5.7rem;
+        }
+        .two_min
+        {
+            margin: -1.45rem auto 0 5.7rem;
+        }
+        .one_min
+        {
+            margin: -1.45rem auto 0 5.7rem;
+        }
+    }
+}
+.blank
+{
+    margin: 0.9rem auto 0 -1.4rem;
+    height: 77px;
+}
+.clock
+{
+    margin: 2.2rem auto 0 -1.4rem;
+    height: 77px;
+}
+.wallet
+{
+    margin: 2.2rem auto 0 -1.4rem;
+    height: 77px;
+}
+.chronometer_1
+{
+    margin: 1.23rem auto 0 4.3rem;
+}
+.chronometer_2
+{
+    margin: 1.0rem auto 0 4.3rem;
+}
+.chronometer_3
+{
+    margin: 1.0rem auto 0 4.3rem;
+}
+.text_fifth_and_sixth_blocks
+{
+    font-size: 1rem;
+    .bold
+    {
+        font-weight: bold;
+    }
+    .text_fifth_block
+    {
+        color: #0F0E42;
+        margin-left: -3.7rem;
+        line-height: 1.58rem;
+        .conditions_of_obtaining
+        {
+            margin-top: -0.2rem;
+            margin-bottom: -2rem;
+            margin-left: 2.3rem;
+        }
+        .list_5th_block
+        {
+            line-height: 1.58rem;
+        }
+        .title_fifth_block
+        {
+            margin-top: -0.2rem;
+            margin-bottom: -2rem;
+        }
+        .information_about_full_price
+        {
+            margin-top: 1rem;
+            margin-left: 2.3rem;
+        }
+        .lend_10k_for_61_day
+        {
+            margin-left: 2.3rem;
+            margin-top: -1rem;
+        }
+        .return_cosequences
+        {
+            margin-top: 1.2rem;
+            margin-left: 2.3rem;
+        }
+        .in_case
+        {
+            margin-left: 2.3rem;
+            margin-top: -2.2rem;
+            line-height: 1.49rem;
+        }
+    }
+    .text_sixth_block
+    {
+        color: white;
+    }
+    .agreement_and_refusing
+    {
+        color: #1146A6;
+        letter-spacing: -0.01rem;
+        .agreement_link
+        {
+            margin: 0.8rem auto 0 -1.4rem;
+        }
+        .refusing_link
+        {
+            margin: -0.5rem auto 0 -1.4rem;
+        }
+    }
+}
+li 
+{
+    list-style-type: none;
+}
+li::before
+{
+ content: '-';
 }
