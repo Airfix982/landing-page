@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <!-- Basic Page Needs
@@ -22,85 +23,86 @@
   <link rel="stylesheet" href="css/skeleton/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 
- <!-- Favicon
+  <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/svg" href="images/logo.svg">
 
 </head>
-<body class="Manrope">
+
+<body>
   <!--Hat-->
-  <section class="hat">
+  <header>
     <div class="row">
-      <div class="eight columns hat_logo">
-        <img src="images/logo.svg" width="145px">
+      <div class="eight columns">
+        <img src="images/logo.svg" class="logo">
       </div>
-      <div class="eight columns bold hat_menu">
+      <div class="eight columns normal hat_menu">
         БЛОГ
       </div>
     </div>
-  </section>
+  </header>
   <!--Hat-->
-
-   <!--blue block-->
-  <section class="first_block" id="form">
-    <div class="container">
-      <div class="row">
-        <div class="sixteen columns light first_block_white_text">
+  <main>
+    <!--blue block-->
+    <section class="first_block" id="form">
+      <div class="container">
+        <div class="row">
+          <div class="sixteen columns light first_block_white_text">
             <div class="to100k">
               <h1>
-                Займ до 100 000 ₽ 
+                Займ до 100 000 ₽
               </h1>
             </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="sixteen columns first_block_white_text normal">
+        <div class="row">
+          <div class="sixteen columns first_block_white_text normal">
             <div class="for10min">
-                    на карту или наличными за 10 минут
-            </div>
-        </div>
-      </div>
-    </div> 
-
-    <div class='first_block_gray_block'>    
-      <div class="row">
-        <div class="sixteen columns"> 
-          <div class="normal blue needed_summ">
-            Необходимая сумма, ₽
-          </div>
-          <div class=" count dark_gray semi-bold">
-            <div class="count_value">
-              30 500
+              на карту или наличными за 10 минут
             </div>
           </div>
-        </div>
-      </div>
-        
-      <div class="row">
-        <div class="sixteen columns">
-          <input type="range" min="1000" max="500000" class="slider">
         </div>
       </div>
 
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="gray normal min_and_max">
-            <div class="min">
-              1 000 ₽
+      <div class='first_block_gray_block'>
+        <div class="row">
+          <div class="sixteen columns">
+            <div class="normal blue needed_summ">
+              Необходимая сумма, ₽
             </div>
-          </div>
-          <div class="gray normal min_and_max">
-            <div class="max">
-              500 000 ₽
+            <div class=" count dark_gray semi-bold">
+              <div class="count_value">
+                30 500
+              </div>
             </div>
           </div>
         </div>
-      </div>
+
+        <div class="row">
+          <div class="sixteen columns">
+            <input type="range" min="1000" max="500000" class="slider">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="sixteen columns">
+            <div class="gray normal min_and_max">
+              <div class="min">
+                1 000 ₽
+              </div>
+            </div>
+            <div class="gray normal min_and_max">
+              <div class="max">
+                500 000 ₽
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="container">
-          <div class="row">
+          <div class="row zero_margin">
             <div class="five columns ">
-              <div class="blue semi_bold input_space_name FIO">
+              <div class="blue semi_bold input_space_name">
                 <div class="FIO">
                   ФИО
                 </div>
@@ -119,7 +121,7 @@
               </div>
               <div class="normal blue input_space">
                 <div class="input_phone">
-                  <input type="text" class="input_information_in_the_box" placeholder="+7 (999) 999 99 99">
+                  <input type="tel" class="input_information_in_the_box" placeholder="+7 (999) 999 99 99">
                 </div>
               </div>
             </div>
@@ -133,42 +135,36 @@
               Высокая степень безопасности данных
             </div>
           </div>
-        </div>
 
-        <div class="inviz">
           <div class="row">
-            <div class="five columns">
-              <img src="images/Checkmark.svg" class="check-mark">
-              <div class="check-mark-text Manrope">
-                  <div class="dark-blue _500">
-                      <div class="font-size-1-1">
-                          Вероятность одобрения:
-                      </div>
+            <div class="inviz">
+              <div class="five columns">
+                <div class="check_mark">
+                  <img src="images/Checkmark.svg">
+                </div>
+                <div class="blue">
+                  <div class="probability_of_approval">
+                    Вероятность одобрения:
                   </div>
+                </div>
+                <div class="big_blue extra_bold">
+                  <div class="eighty_seven">
+                    87%
+                  </div>
+                </div>
               </div>
-              <div class="check-mark-precents Manrope">
-                  <div class="light-blue _700">
-                      <div class="font-size-1-5">
-                          87%
-                      </div>
+              <div class="five columns">
+                <img src="images/precent.svg" class="precent">
+                <div class="blue">
+                  <div class="first_loan">
+                    Первый займ:
                   </div>
-              </div>
-            </div>
-            <div class="five columns">
-              <img src="images/precent.svg" class="precent">
-              <div class="precent-text Manrope">
-                  <div class="dark-blue _500">
-                      <div class="font-size-1-1">
-                          Первый займ:
-                      </div>
+                </div>
+                <div class="big_blue extra_bold">
+                  <div class="zero">
+                    0%
                   </div>
-              </div>
-              <div class="precent-precents Manrope">
-                  <div class="light-blue _700">
-                      <div class="font-size-1-5">
-                          0%
-                      </div>
-                  </div>
+                </div>
               </div>
             </div>
             <div class="six columns"></div>
@@ -179,7 +175,7 @@
           <div class="sixteen columns">
             <div class="agreement gray semi_bold">
               <input type="checkbox">
-                Я выражаю согласие на 
+              Я выражаю согласие на
               <a class="underlined_text">
                 сбор и обработку моих персональных данных на условиях обработки персональных данных.
               </a>
@@ -191,7 +187,7 @@
             <div class="agreement gray semi_bold">
               <div class="second_agreement">
                 <input type="checkbox">
-                  Я  даю предварительное согласие
+                Я даю предварительное согласие
                 <a class="underlined_text">
                   на получение рекламно-информационных рассылок (сообщений).
                 </a>
@@ -199,323 +195,336 @@
             </div>
           </div>
         </div>
-
       </div>
-    
-  </section>
-  <!--blue block-->
+    </section>
+    <!--blue block-->
 
-   <!--second block-->
-  <section class="second_and_fourth_blocks text_second_third_fourth_blocks">
-    <div class="container">
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="normal gray_text">
-            <div class="gray_header_2nd_block">
-              Способы получения
+    <!--second block-->
+    <section class="second_and_fourth_blocks text_second_third_fourth_blocks">
+      <div class="container">
+        <div class="row">
+          <div class="sixteen columns">
+            <div class="normal gray_text">
+              <div class="gray_header_2nd_block">
+                Способы получения
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="sixteen columns">
+            <div class="semi_bold blue_title">
+              <div class="blue_title_2nd_block">
+                Отправим вам деньги
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="five columns">
+            <img src="images/card.svg" class="second_block_picture_cards">
+            <div class="blue_subtitle semi_bold">
+              <div class="blue_subtitle_first">
+                На карту
+              </div>
+            </div>
+            <div class="blue_text normal">
+              <div class="blue_text_2nd_block_first">
+                Любой банк РФ: Visa, MasterCard, МИР
+              </div>
+            </div>
+          </div>
+          <div class="six columns">
+            <img src="images/phone with cash.svg" class="second_block_picture_phone_and_wallet">
+            <div class="blue_subtitle semi_bold">
+              <div class="blue_subtitle_second">
+                На онлайн кошелек
+              </div>
+            </div>
+            <div class="blue_text normal">
+              <div class="blue_text_2nd_block_second">
+                Webmoney, QIWI, PAYEER
+              </div>
+            </div>
+          </div>
+          <div class="five columns">
+            <img src="images/hand with cash.svg" class="second_block_picture_hand_and_money">
+            <div class="blue_subtitle semi_bold">
+              <div class="blue_subtitle_third">
+                Наличными
+              </div>
+            </div>
+            <div class="blue_text normal">
+              <div class="blue_text_2nd_block_third">
+                В офисах наших партнеров<br>во всех городах РФ
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="semi_bold blue_title">
-            <div class="blue_title_2nd_block">
-              Отправим вам деньги 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="five columns">
-          <img src="images/card.svg" class="second_block_picture_cards" width="76px">
-          <div class="blue_subtitle semi_bold">
-            На карту
-          </div>
-          <div class="blue_text normal"> 
-            <div class="blue_text_2nd_block">
-              Любой банк РФ: Visa, MasterCard, МИР   
-            </div>         
-          </div>
-        </div>
-        <div class="six columns">
-          <img src="images/phone with cash.svg" class="second_block_picture_phone_and_wallet" width="77px">
-          <div class="blue_subtitle semi_bold">
-            На онлайн кошелек
-          </div>
-          <div class="blue_text normal">
-            <div class="blue_text_2nd_block">
-              Webmoney, QIWI, PAYEER  
-            </div>        
-          </div>
-        </div>
-        <div class="five columns">
-          <img src="images/hand with cash.svg" class="second_block_picture_hand_and_money" width="77px">
-          <div class="blue_subtitle semi_bold">
-            Наличными
-          </div>
-          <div class="blue_text normal">   
-            <div class="blue_text_2nd_block">
-              В офисах наших партнеров<br>во всех городах РФ   
-            </div>          
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-   <!--second block-->
+    </section>
+    <!--second block-->
 
-   <!--third block-->
-  <section class="third_block text_second_third_fourth_blocks">
-    <div class="container"> 
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="normal gray_text">
-            <div class="gray_header_3d_block">
+    <!--third block-->
+    <section class="third_block text_second_third_fourth_blocks third_block">
+      <div class="container">
+        <div class="row">
+          <div class="sixteen columns">
+            <div class="normal gray_text">
+              <div class="gray_header_3d_block">
                 Гарантированные условия
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="eight columns">
-          <div class="semi_bold blue_title">
-            <div class="blue_title_3d_block">
+        <div class="row">
+          <div class="eight columns">
+            <div class="semi_bold blue_title">
+              <div class="blue_title_3d_block">
                 Почему обращаются к нам?
+              </div>
+            </div>
+            <div class="blue_text normal">
+              <div class="blue_text_3d_block">
+                Используем самые современные технологии <br>информационной и технологической <br class="br_none">защиты.
+              </div>
             </div>
           </div>
-          <div class="blue_text normal"> 
-            <div class="blue_text_3d_block">  
-              Используем самые современные технологии <br>информационной и технологической <br>защиты.
+          <div class="two columns">
+            <div class="bold big_blue">
+              <div class="precents_99">
+                99%
+              </div>
+            </div>
+            <div class="normal light_blue">
+              <div class="light_blue_22px">
+                <div class="approbation">
+                  одобрение
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="two columns">
-          <div class="bold big_blue">
-            <div class="precents_99">
-              99%
+          <div class="four columns">
+            <div class="bold big_blue">
+              <div class="ten_minuts">
+                10 мин
+              </div>
+            </div>
+            <div class="normal light_blue">
+              <div class="light_blue_22px">
+                <div class="and_you_have_money">
+                  и деньги у вас
+                </div>
+              </div>
             </div>
           </div>
-          <div class="normal light_blue">
-            <div class="light_blue_22px">
-                одобрение
+          <div class="two columns">
+            <div class="bold big_blue">
+              <div class="precents_0">
+                0%
+              </div>
+            </div>
+            <div class="normal light_blue">
+              <div class="light_blue_22px">
+                <div class="first_loan_0">
+                  первый <div class="loan">займ</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="four columns">
-          <div class="bold big_blue">
-            <div class="ten_minuts">
-              10 мин
-            </div>
-          </div>
-          <div class="normal light_blue">
-            <div class="light_blue_22px">
-              и деньги у вас
-            </div>
-          </div>
-        </div>
-        <div class="two columns">
-          <div class="bold big_blue">
-            <div class="precents_0">
-              0%
-            </div>
-          </div>
-          <div class="normal light_blue">
-            <div class="light_blue_22px">
-              первый займ
+        <div class="row">
+          <div class="sixteen columns">
+            <div class="blue_text bold">
+              <input type="button" class="button button_3d_block" value="Получить деньги">
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="blue_text bold">
-            <input type="button" class="button button_3d_block" value="Получить деньги">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--third block-->
+    </section>
+    <!--third block-->
 
-  <!--fourth block-->
-  <section class="fourth_block text_second_third_fourth_blocks">
-    <div class="container">
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="semi_bold blue_title">
-            <div class="blue_title_4th_block">
+    <!--fourth block-->
+    <section class="fourth_block text_second_third_fourth_blocks">
+      <div class="container">
+        <div class="row">
+          <div class="sixteen columns">
+            <div class="semi_bold blue_title">
+              <div class="blue_title_4th_block">
                 Получить деньги просто!
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="five columns">
-          <img src="images/page with pencil.svg" class="blank">
-          <a href="#form">
-            <div class="semi_bold blue_subtitle">
-              <div class="fill_form">
-                Заполните анкету
+        <div class="row">
+          <div class="five columns">
+            <img src="images/page with pencil.svg" class="blank" width="120px">
+            <a href="#form">
+              <div class="semi_bold blue_subtitle">
+                <div class="fill_form">
+                  Заполните анкету
+                </div>
               </div>
-            </div>
-          </a>
-          <div class="gray_text normal">
-            <div class="gray_description_4th_block_first">
+            </a>
+            <div class="gray_text normal">
+              <div class="gray_description_4th_block_first">
                 Удобный интерфейс позволит быстро пройти процедуру заполнения
+              </div>
             </div>
-          </div>
-          <img src="images/chronometer.svg" class="chronometer_1">
-          <div class="very_light_blue">
-            <div class="five_min">
+            <img src="images/chronometer.svg" class="chronometer_1">
+            <div class="very_light_blue">
+              <div class="five_min">
                 5 минут
+              </div>
             </div>
           </div>
-        </div>
-        <div class="six columns">
-          <img src="images/clock.svg" class="clock">
-          <div class="semi_bold blue_subtitle">
-            <div class="wait_agreement">
-              Дождитесь одобрения
+          <div class="six columns">
+            <img src="images/clock.svg" class="clock">
+            <div class="semi_bold blue_subtitle">
+              <div class="wait_agreement">
+                Дождитесь одобрения
+              </div>
             </div>
-          </div>
-          <div class="gray_text normal">
-            <div class="gray_description_4th_block_second">
+            <div class="gray_text normal">
+              <div class="gray_description_4th_block_second">
                 Рассмотрение заявки займёт не более 5 минут
+              </div>
             </div>
-          </div>
-          <img src="images/chronometer.svg" class="chronometer_2">
-          <div class="very_light_blue">
-            <div class="two_min">
+            <img src="images/chronometer.svg" class="chronometer_2">
+            <div class="very_light_blue">
+              <div class="two_min">
                 2 минуты - среднее время
+              </div>
             </div>
           </div>
-        </div>
-        <div class="five columns">
-          <img src="images/wallet.svg" class="wallet">
-          <div class="semi_bold blue_subtitle">
-            <div class="get_money">
+          <div class="five columns">
+            <img src="images/wallet.svg" class="wallet">
+            <div class="semi_bold blue_subtitle">
+              <div class="get_money">
                 Получите деньги
+              </div>
             </div>
-          </div>
-          <div class="gray_text normal">
-            <div class="gray_description_4th_block_third">
-                На банковскую карту, наличными или на электронный кошелек 
+            <div class="gray_text normal">
+              <div class="gray_description_4th_block_third">
+                На банковскую карту, наличными или на электронный кошелек
+              </div>
             </div>
-          </div>
-          <img src="images/chronometer.svg" class="chronometer_3">
-          <div class="very_light_blue">
-            <div class="one_min">
-                1 минута 
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-   <!--fourth block-->
-
-   <!--fifth block-->
-  <section class="fifth_block text_fifth_and_sixth_blocks">
-    <div class="container">
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="bold text_fifth_block">
-            <div class="conditions_of_obtaining">
-                Условия получения:
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="text_fifth_block list_5th_block">
-                <ul>
-                  <li>Первый заём до 10 000 рублей выдается по ставке 0% в случае своевременного погашения;</li>
-                  <li>Процентная ставка по займам от 30 до 360% годовых,</li>
-                  <li>По потребительским кредитам и кредитным картам - от 17 до 31% годовых.</li>
-                  <li>В случае нарушения сроков, размер неустойки составляет 0,10% от суммы просрочки в день, но не более 10% от суммы кредита;</li>
-                  <li>В случае длительной задержки выплаты информация будет передана в БКИ</li>
-                </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="bold text_fifth_block">
-            <div class="information_about_full_price">
-                Информация о полной стоимости займа и пример расчета:
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="text_fifth_block">
-            <div class="text_fifth_block lend_10k_for_61_day">
-                    Заём в размере 10 000 рублей выдан на 61 дней с пролонгацией. 
-                    В году 365 дней, по договору ставка составляет 1% в день (годовая ставка, соответственно будет равна 365%). Сумма процентов за год составляет 36 500 руб. (10 000*365% = 36 500), за 1 день 100 руб. (36 500/365 = 100), за 61 дней соответственно 6 100 руб. (100*61 = 6100). Общая сумма платежа составляет 16 100 руб. (10 000 руб. основной долг + 6 100 руб. проценты). 
-                ПСК (полная стоимость кредита) в процентах составляет 365% годовых.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="bold text_fifth_block">
-            <div class="return_cosequences">
-                Последствия невыплаты заёмных средств:
+            <img src="images/chronometer.svg" class="chronometer_3">
+            <div class="very_light_blue">
+              <div class="one_min">
+                1 минута
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="text_fifth_block">
-            <div class="text_fifth_block in_case">
-                В случае невозвращения в условленный срок суммы кредита или суммы процентов за пользование 
-                заёмными средствами кредитор вынуждено начислит штраф за просрочку платежа. 
-                Большинство кредиторов идут на уступки и дают 3 дополнительных рабочих дня для оплаты. 
-                Они предусмотрены на случай, к примеру, если банковский перевод занял больше времени, чем обычно. 
-                Однако, в случае неполучения от Вас какой-либо реакции в течение продолжительного времени, 
-                будет начислен штраф за просрочку срока погашения размером в среднем 0,10% от 
-                первоначальной суммы для займов, 0,03% от суммы задолженности в среднем для потребительских кредитов 
-                и кредитных карт. При несоблюдении Вами условий по погашению кредитов и займов, данные о Вас 
-                могут быть переданы в реестр должников, а задолженность - коллекторскому агентству для взыскания долга. 
-                О всех приближающихся сроках платежа кредитор своевременно информирует Вас по СМС или электронной почте. 
-                Рекомендуем Вам вносить платеж в день получения данных напоминаний. Погашая задолженность 
-                в срок, Вы формируете хорошую кредитную историю, что повышает Ваши шансы в дальнейшем получить 
-                кредит на более выгодных условиях. Предложение не является оффертой. Конечные условия 
-                уточняйте при прямом общении с кредиторами.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="agreement_and_refusing">
-            <div class="agreement_link">
-                Согласие на обработку персональных данных
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="sixteen columns">
-          <div class="agreement_and_refusing">
-            <div class="refusing_link">
-                Отказ от рассылки рекламных материалов
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-   <!--fifth block-->
+    </section>
+    <!--fourth block-->
 
-   <!--footer-->
-  <section class="footer footer_text">
+    <!--fifth block-->
+    <section class="fifth_block text_fifth_and_sixth_blocks">
+      <div class="container">
+        <div class="row">
+          <div class="sixteen columns">
+            <div class="bold text_fifth_block">
+              <div class="conditions_of_obtaining">
+                Условия получения:
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="sixteen columns">
+            <div class="text_fifth_block list_5th_block">
+              <ul>
+                <li>Первый заём до 10 000 рублей выдается по ставке 0% в случае своевременного погашения;</li>
+                <li>Процентная ставка по займам от 30 до 360% годовых,</li>
+                <li>По потребительским кредитам и кредитным картам - от 17 до 31% годовых.</li>
+                <li>В случае нарушения сроков, размер неустойки составляет 0,10% от суммы просрочки в день, но не более
+                  10% от суммы кредита;</li>
+                <li>В случае длительной задержки выплаты информация будет передана в БКИ</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sixteen columns">
+              <div class="bold text_fifth_block">
+                <div class="information_about_full_price">
+                  Информация о полной стоимости займа и пример расчета:
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sixteen columns">
+              <div class="text_fifth_block">
+                <div class="text_fifth_block lend_10k_for_61_day">
+                  Заём в размере 10 000 рублей выдан на 61 дней с пролонгацией.
+                  В году 365 дней, по договору ставка составляет 1% в день (годовая ставка, соответственно будет равна
+                  365%). Сумма процентов за год составляет 36 500 руб. (10 000*365% = 36 500), за 1 день 100 руб. (36
+                  500/365 = 100), за 61 дней соответственно 6 100 руб. (100*61 = 6100). Общая сумма платежа составляет
+                  16 100 руб. (10 000 руб. основной долг + 6 100 руб. проценты).
+                  ПСК (полная стоимость кредита) в процентах составляет 365% годовых.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sixteen columns">
+              <div class="bold text_fifth_block">
+                <div class="return_cosequences">
+                  Последствия невыплаты заёмных средств:
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="sixteen columns">
+            <div class="text_fifth_block">
+              <div class="text_fifth_block in_case">
+                В случае невозвращения в условленный срок суммы кредита или суммы процентов за пользование
+                заёмными средствами кредитор вынуждено начислит штраф за просрочку платежа.
+                Большинство кредиторов идут на уступки и дают 3 дополнительных рабочих дня для оплаты.
+                Они предусмотрены на случай, к примеру, если банковский перевод занял больше времени, чем обычно.
+                Однако, в случае неполучения от Вас какой-либо реакции в течение продолжительного времени,
+                будет начислен штраф за просрочку срока погашения размером в среднем 0,10% от
+                первоначальной суммы для займов, 0,03% от суммы задолженности в среднем для потребительских кредитов
+                и кредитных карт. При несоблюдении Вами условий по погашению кредитов и займов, данные о Вас
+                могут быть переданы в реестр должников, а задолженность - коллекторскому агентству для взыскания долга.
+                О всех приближающихся сроках платежа кредитор своевременно информирует Вас по СМС или электронной почте.
+                Рекомендуем Вам вносить платеж в день получения данных напоминаний. Погашая задолженность
+                в срок, Вы формируете хорошую кредитную историю, что повышает Ваши шансы в дальнейшем получить
+                кредит на более выгодных условиях. Предложение не является оффертой. Конечные условия
+                уточняйте при прямом общении с кредиторами.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="sixteen columns">
+            <div class="agreement_and_refusing">
+              <div class="agreement_link">
+                Согласие на обработку персональных данных
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="sixteen columns">
+            <div class="agreement_and_refusing">
+              <div class="refusing_link">
+                Отказ от рассылки рекламных материалов
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--fifth block-->
+  </main>
+  <!--footer-->
+  <footer>
     <div class="container">
       <div class="row">
         <div class="sixteen columns">
@@ -544,8 +553,11 @@
       <div class="row">
         <div class="sixteen columns">
           <div class="refusing_contact">
-            Находится в реестре операторов, осуществляющих обработку персональных данных, рег. № 77-19-014842, приказ №105 от 28.06.2019 г.
-            <br>Данное соглашение действует бессрочно и может быть отозвано путем отправки заявления в свободной форме по email-адресу otkaz@monb.su с пометкой 
+            Находится в реестре операторов, осуществляющих обработку персональных данных, рег. № 77-19-014842, приказ
+            №105 от 28.06.2019 г.
+            <br>Данное соглашение действует бессрочно и может быть отозвано путем отправки заявления в свободной форме
+            по email-адресу otkaz@monb.su с пометкой
+
             в теме «Отказ от сотрудничества».
           </div>
         </div>
@@ -561,16 +573,20 @@
       <div class="row">
         <div class="sixteen columns">
           <div class="look_for_at_the_site">
-            Сайт НЕ является представительством МФО или банком, не осуществляет выдачу займов и кредитов. Все рекомендуемые на сайте кредитные учреждения имеют соответствующие лицензии. Условия неуплаты можно уточнить на сайте МФО.
+            Сайт НЕ является представительством МФО или банком, не осуществляет выдачу займов и кредитов. Все
+            рекомендуемые на сайте кредитные учреждения имеют соответствующие лицензии. Условия неуплаты можно уточнить
+            на сайте МФО.
           </div>
         </div>
       </div>
     </div>
-  </section>
-   <!--footer-->
- 
+    </div>
+  </footer>
+  <!--footer-->
 
-<!-- End Document
+
+  <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>
