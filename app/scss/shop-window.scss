@@ -1,0 +1,131 @@
+header
+{
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+    padding-bottom: 0.8rem;
+}
+.margin-0
+{
+    margin-bottom: 0;
+}
+.shop
+{
+    background-color: #F2F6FD;
+    padding-top: 1rem;
+    padding-bottom: 6.5rem;
+}
+.shop-window_request-count_white-block
+{
+    background-color: white;
+    border-radius: 0.3rem;
+    border: none;
+    margin: 0rem -1.3rem 0;
+    padding-bottom: 0.4rem;
+}
+.shop-window
+{
+    &__requests-count
+    {
+        &_title
+        {
+            color: #0F0E42;
+            font-size: 1.375rem;
+            font-weight: 600;
+            margin: 1.2rem auto 0 0.9rem;
+            line-height: 1.7rem;
+        }
+        &_text
+        {
+            color: #2C2C2C;
+            font-size: 1rem;
+            margin: -0.5rem -0.9rem 0 0.9rem;
+
+        }
+        &_count
+        {
+            color: #1146A6;
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin: -0.05rem auto 0 0.9rem;
+            letter-spacing: 0.02rem;
+        }
+    }
+}
+.shop-offer
+{
+    width: 10.3rem;
+    margin: 1.2rem 1rem 0;
+    z-index: 0.9;
+}
+.shop-offer-near
+{
+    margin: -14.6rem auto 0 12.2rem ;
+}
+.shop-window
+{
+    &__offer-card
+    {
+        background-color: white;
+        border-radius: 0.3rem;
+        border: 1px solid #CED6ED;
+        &_picture
+        {
+            margin: 0.6rem auto 0;
+            display: block;
+        }
+        &_application-status
+        {
+            color: #1A87D8;
+            font-size: 0.75rem;
+            font-weight: 500;
+            margin: 0.8rem auto 1rem;
+            display: block;
+            text-align: center;
+        }
+        &_application-status-best
+        {
+            color: #1A87D8;
+            font-size: 0.75rem;
+            font-weight: 500;
+            margin: 0.3rem auto 0;
+            display: block;
+            text-align: center;
+        }
+        &_available
+        {
+            color: #0F0E42;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin: 0.4rem auto 0;
+            display: block;
+            text-align: center;
+        }
+        &_summ
+        {
+            color: #2C2C2C;
+            font-size: 1.125rem;
+            font-weight: 300;
+            margin: 0.1rem auto 0;
+            display: block;
+            text-align: center;
+        }
+        &_button
+        {
+            width: 100%;
+            color: #0F0E42;
+            font-weight: 600;
+            background-color: #FCC01A;
+            border: none;
+            border-radius: 0.3rem;
+            font-size: 1.125rem;
+            height: 3.5rem;
+            box-shadow: none;
+            display: inline-block;
+            transform: none;
+            margin: 1.2rem auto 0;
+        }
+        &_button:hover
+        {
+            background-color: #FFD359;
+        }
+    }
+}
