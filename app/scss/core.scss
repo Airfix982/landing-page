@@ -1,0 +1,612 @@
+body
+{
+    font-family: Manrope;
+}
+header
+{
+    background-color: white;
+    margin-bottom: -0.4rem;
+    padding-bottom: 0rem;
+    .bold
+    {
+        font-weight: bold;
+    }
+    .hat_menu
+    {
+        color: #08327F;
+        font-size: 0.95rem;
+        line-height: 2.2rem;
+        margin-top: -2.75rem;
+        margin-right: 1rem;
+        text-align: right;
+    }
+}
+.logo
+    {
+        margin: 0.6rem 0 0 0.95rem;
+        width: 145px;
+    }
+.first_block
+{
+    background: linear-gradient(to bottom right, #07317E, #1146A6);
+    padding-bottom: 1.3rem;
+    .bold
+    {
+        font-weight: bold;
+    }
+    .normal
+    {
+        font-weight: normal;
+    }
+    .light
+    {
+        font-weight: 300;
+    }
+    .semi_bold
+    {
+        font-weight: 500;
+    }
+    .extra_bold
+    {
+        font-weight: 700;
+    }
+    .first_block_white_text
+    {
+        color: white;
+        .to100k
+        {
+            line-height: 4rem;
+            font-size: 1.4;
+            margin-top: -0.4rem;
+            margin-left: -1.5rem;
+            letter-spacing: -0.015rem;
+        }
+        .for10min
+        {
+            line-height: 5.5rem;
+            font-size: 1.13rem;
+            margin-top: -4.9rem;
+            margin-left: -1.4rem;
+        }
+    }
+    .first_block_gray_block
+    {
+        background-color: #F2F6FD;
+        border-radius: 0.3rem;
+        margin: -1.5rem 0.9rem 0;
+    }
+    .blue
+    {
+        color: #0F0E42;
+        .probability_of_approval
+        {
+            font-size: 1.125rem;
+        }
+        .first_loan
+        {
+            font-size: 1.125rem; 
+        }
+    }
+    .needed_summ
+    {
+        font-size: 1rem;
+        margin: 1.9rem 0 0 1rem;
+    }
+    .dark_gray
+    {
+        color: #2C2C2C;
+    }
+    .count
+    {
+        position: relative;
+        box-sizing: border-box;
+        width: 7rem;
+        height: 2.75rem;
+        margin: -2.1rem 1rem 0 auto;
+        background-color: white;
+        border: 0.1rem solid #CED6ED;
+        border-radius: 0.15rem;
+        .count_value
+        {
+            text-align: right;
+            font-size: 1.5rem;
+            line-height: 3.5rem;
+            margin: -0.45rem 0.8rem auto auto;
+        }
+    }
+    .slider
+    {
+        border-radius: 0.18rem;
+        margin: 0.2rem 1rem 0;
+        height: 0.5rem;
+        width: 90%;
+    }
+    .gray
+    {
+        color: #8C8E96;
+    }
+    .min_and_max
+    {
+        font-size: 1rem;
+        line-height: 3.5rem;
+        .min
+        {
+            margin: -1.1rem auto auto 1rem;
+        }
+        .max
+        {
+            margin: -3.5rem 1rem auto auto;
+            text-align: right;
+        }
+    }
+    .input_space_name
+    {
+        font-size: 1.15rem;
+        line-height: 3.5rem;
+        .FIO
+        {
+            margin: -2.1rem auto 0 -0.4rem;
+        }   
+        .phone
+        {
+            margin: -0.2rem auto 0 -0.4rem;
+        }
+    }
+    .input_space
+    {
+        line-height: 3.5rem;
+        letter-spacing: 90%;
+        font-size: 1.15rem;
+        .input_name
+        {
+            margin: -0.8rem auto 0 -0.5rem;
+        }
+        .input_phone
+        {
+            margin: -0.8rem auto 0 -0.5rem;;
+        }
+    }
+    .input_information_in_the_box
+    {
+        background-color: white;
+        border-radius: 0.3rem;
+        border: 0.1rem solid #CED6ED;
+        box-sizing: border-box;
+        width: 19.6rem;
+        height: 3.5rem;
+        padding-left: 0.9rem;
+    }
+    .lock
+    {
+        margin: 0.8rem auto auto 2.05rem;
+    }
+    .a_high_lvl_of_safety
+    {
+        font-size: 0.71rem;
+        margin: -1.25rem auto auto 3.3rem;
+        letter-spacing: 0.02rem;
+    }
+    .big_blue
+    {
+        color: #1146A6;
+        font-size: 1.5rem;
+    }
+    .agreement
+    {
+        margin: 0 1rem;
+        font-size: 0.75rem;
+        .underlined_text
+        {
+            text-decoration-line: underline;
+        }
+        .second_agreement
+        {
+            margin-top: -0.7rem;
+            margin-bottom: 3rem;
+        }
+    }
+}
+.check_mark
+{
+    margin: 0;
+}
+.precent
+{
+    margin: 0;
+}
+.zero_margin
+{
+    margin-bottom: 0;
+}
+.button
+{
+    background-color: #FCC01A;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    width: 19.6rem;
+    height: 3.5rem;
+    box-shadow: none;
+    display: inline-block;
+    transform: none;
+}
+.button:hover
+{
+    background-color: #FFD359;
+}
+.main_button
+{
+    margin: 1.125rem auto 0 -0.5rem;
+}
+.button_3d_block
+{
+    margin: 1.6rem auto 2.8rem -1.4rem;
+    width: 21.56rem;
+    display: block;/*это в медиа убери,чтоб кнопка не центровалась*/
+}
+.inviz
+{
+    padding-bottom: 1.45rem;
+    display: none;
+}
+.second_and_fourth_blocks
+{
+    background-color: #FCFDFF;
+    padding-bottom: 3.45rem;
+}
+.third_block
+{
+    background-color: #F2F6FD;
+}
+.fifth_block
+{
+    background-color: white;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 0.3rem;
+}
+.second_block_picture_cards
+{
+    width: 76px;
+    margin-top: 0.9rem;
+    margin-left: -1.4rem;
+}
+.second_block_picture_phone_and_wallet
+{
+    width: 77px;
+    margin-top: 1.85rem;
+    margin-left: -1.4rem;
+}
+.second_block_picture_hand_and_money
+{
+    width: 77px;
+    margin-top: 3.1rem;
+    margin-left: -1.4rem;
+}
+.text_second_third_fourth_blocks
+{
+    .bold
+    {
+        font-weight: bold;
+    }
+    .normal
+    {
+        font-weight: normal;
+    }
+    .light
+    {
+        font-weight: 300;
+    }
+    .semi_bold
+    {
+        font-weight: 500;
+    }
+    .extra_bold
+    {
+        font-weight: 700;
+    }
+    .gray_text
+    {
+        color: #8C8E9B;
+        font-size: 1.125rem;
+        .gray_header_2nd_block
+        {
+            margin: 4rem auto 0 -1.5rem;
+        }
+        .gray_header_3d_block
+        {
+            margin: 2.8rem auto 0 -1.4rem;
+        }
+        .gray_description_4th_block_first
+        {
+            font-size: 1rem;
+            margin: 0.8rem auto 0 4.2rem;
+            line-height: 1.5rem;
+        }
+        .gray_description_4th_block_second
+        {
+            font-size: 1rem;
+            margin: 0.7rem auto 0 4.2rem;
+            line-height: 1.6rem;
+        }
+        .gray_description_4th_block_third
+        {
+            font-size: 1rem;
+            margin: 0.7rem auto 0 4.2rem;
+            line-height: 1.6rem;
+        }
+    }
+    .blue_title
+    {
+        color: #0F0E42;
+        font-size: 1.75rem;
+        .blue_title_2nd_block
+        {
+            margin: -0.8rem auto 0 -1.4rem;
+        }
+        .blue_title_3d_block
+        {
+            margin: -0.7rem auto 0 -1.4rem;
+            line-height: 2.13rem;
+        }
+        .blue_title_4th_block
+        {
+            margin: 3.6rem auto 0 -1.4rem;           
+            line-height: 2.16rem;
+        }
+    }
+    .blue_subtitle
+    {
+        color: #0F0E42;
+        font-size: 1.25rem;
+        letter-spacing: 0.05rem;
+        margin: -5.2rem auto 0 4.3rem;
+        .fill_form
+        {
+            letter-spacing: 0;
+            color: #07317E;
+        }
+        .wait_agreement
+        {
+            margin: -5.2rem auto 0 0.0rem;
+            letter-spacing: 0;
+        }
+        .get_money
+        {
+            margin: -5.2rem auto 0 0.0rem;
+            letter-spacing: 0;
+        }
+    }
+    .blue_text
+    {
+        color: #0F0E42;
+        font-size: 1rem;
+        .blue_text_2nd_block_first
+        {
+            margin: 0.5rem auto 0 4.3rem;
+        }
+        .blue_text_2nd_block_second
+        {
+            margin: 0.5rem auto 0 4.3rem;
+        }
+        .blue_text_2nd_block_third
+        {
+            margin: 0.5rem auto 0 4.3rem;
+        }
+        .blue_text_3d_block
+        {
+            margin: 1.6rem auto 0 -1.4rem;
+            white-space: nowrap;
+            line-height: 1.4rem;
+        }
+    }
+    .light_blue
+    {
+        color: #08327F;
+        .light_blue_22px
+        {
+            font-size: 1.38rem;
+            margin: -0.35rem auto 0 -1.4rem;
+        }
+        .light_blue_14px
+        {
+            font-size: 0.85rem;
+        }
+    }
+    .big_blue
+    {
+        color: #07317E;
+        font-size: 2.5rem;
+        margin-left: -1.4rem;
+        .precents_99
+        {
+            margin-top: 2.6rem;
+        }
+        .ten_minuts
+        {
+            margin-top: 1.1rem;
+        }
+        .precents_0
+        {
+            margin-top: 1.2rem;
+        }
+    }
+    .very_light_blue
+    {
+        color: #1146A6;
+        font-size: 0.875rem;
+        .five_min
+        {
+            margin: -1.45rem auto 0 5.7rem;
+        }
+        .two_min
+        {
+            margin: -1.45rem auto 0 5.7rem;
+        }
+        .one_min
+        {
+            margin: -1.45rem auto 0 5.7rem;
+        }
+    }
+}
+.loan
+{
+    margin: -2rem auto 0 5.1rem;
+}
+.blank
+{
+    margin: 1rem auto 0 -2.7rem;
+    height: 77px;
+}
+.clock
+{
+    margin: 2.2rem auto 0 -1.4rem;
+    height: 77px;
+}
+.wallet
+{
+    margin: 2.2rem auto 0 -1.4rem;
+    height: 77px;
+}
+.chronometer_1
+{
+    margin: 1.23rem auto 0 4.3rem;
+}
+.chronometer_2
+{
+    margin: 1.0rem auto 0 4.3rem;
+}
+.chronometer_3
+{
+    margin: 1.0rem auto 0 4.3rem;
+}
+.text_fifth_and_sixth_blocks
+{
+    font-size: 1rem;
+    .bold
+    {
+        font-weight: bold;
+    }
+    .text_fifth_block
+    {
+        color: #0F0E42;
+        margin-left: -3.7rem;
+        line-height: 1.58rem;
+        .conditions_of_obtaining
+        {
+            margin-top: -0.2rem;
+            margin-bottom: -2rem;
+            margin-left: 2.3rem;
+        }
+        .list_5th_block
+        {
+            line-height: 1.58rem;
+        }
+        .title_fifth_block
+        {
+            margin-top: -0.2rem;
+            margin-bottom: -2rem;
+        }
+        .information_about_full_price
+        {
+            margin-top: 1rem;
+            margin-left: 2.3rem;
+        }
+        .lend_10k_for_61_day
+        {
+            margin-left: 2.3rem;
+            margin-top: -1rem;
+        }
+        .return_cosequences
+        {
+            margin-top: 1.2rem;
+            margin-left: 2.3rem;
+        }
+        .in_case
+        {
+            margin-left: 2.3rem;
+            margin-top: -2.2rem;
+            line-height: 1.49rem;
+        }
+    }
+    .text_sixth_block
+    {
+        color: white;
+    }
+    .agreement_and_refusing
+    {
+        color: #1146A6;
+        letter-spacing: -0.01rem;
+        .agreement_link
+        {
+            margin: 0.8rem auto 0 -1.4rem;
+        }
+        .refusing_link
+        {
+            margin: -0.5rem auto 0 -1.4rem;
+        }
+    }
+}
+li 
+{
+    list-style-type: none;
+}
+li::before
+{
+ content: '-';
+}
+.footer
+{
+    background-color: #0F0E42;
+    padding-bottom: 2.75rem;
+}
+footer
+{
+    background-color: #0F0E42;
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    .bold
+    {
+        font-weight: bold;
+    }
+    .normal
+    {
+        font-weight: normal;
+    }
+    .servis
+    {
+        font-size: 0.875rem;
+        margin: 0.3rem auto 0 -1.4rem;
+    }
+    .contact
+    {
+        margin: 0.7rem auto 0 -1.4rem;
+    }
+    .white_line
+    {
+        background-color: white;
+        height: 0.06rem;
+        margin: 0.7rem -1.4rem 0;
+        display: block;
+    }
+    .refusing_contact
+    {
+        margin: 0 -1.4rem 0;
+        line-height: 1.6rem;
+    }
+    .about_price
+    {
+        margin: 0 -1.4rem 0;
+        line-height: 1.6rem;
+    }
+    .look_for_at_the_site
+    {
+        margin: 0 -1.4rem 0;
+        line-height: 1.6rem;
+    }
+}
+.logo_footer
+{
+    margin: 2.75rem auto 0 -1.5rem;
+}
