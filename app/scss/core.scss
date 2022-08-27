@@ -5,6 +5,7 @@ body
 header
 {
     background-color: white;
+    margin-bottom: -0.4rem;
     padding-bottom: 0rem;
     .bold
     {
@@ -243,13 +244,11 @@ header
     width: 21.56rem;
     display: block;/*это в медиа убери,чтоб кнопка не центровалась*/
 }
-
 .inviz
 {
     padding-bottom: 1.45rem;
     display: none;
 }
-
 .second_and_fourth_blocks
 {
     background-color: #FCFDFF;
@@ -284,7 +283,6 @@ header
     margin-top: 3.1rem;
     margin-left: -1.4rem;
 }
-
 .text_second_third_fourth_blocks
 {
     .bold
